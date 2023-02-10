@@ -1,15 +1,6 @@
-/*_____________________RED_THEME______________________*/
-/* --body-before:#00ff771a; /* This is the background that creates the crt lines, background uses a transparency of 10% SET TO NONE TO REMOVE CRT EFFECT */
-/* --body-after: #00ff7733; /* This is the background that creates the crt lines, background uses a transparency of 20% SET TO NONE TO REMOVE CRT EFFECT */
-/* --body-animation: flicker; This is the background that flickers. SET TO NONE TO REMOVE THE FLICKER ANIMATION! */
-/* --custom-text-header-animation: textflicker; /* SET TO NONE TO REMOVE THE FLICKER ANIMATION! */
-
 @import url(/css/addons/unraid/login-page/anime/anime-base.css);
 :root {
 --main-bg-color: black;
---body-before: #ff00001a;
---body-after: #ff000033;
---body-animation: flicker;
 --logo: url(/css/addons/unraid/login-page/anime/logo/anime.png) center no-repeat;
 --text-color: #e22828;
 --input-color: #e22828;
@@ -21,12 +12,9 @@
 --button-color: #e22828;
 --button-color-hover: #ffffff;
 --selection-color: #ffffff;
---custom-text-header: #e22828;
---custom-text-header-shadow: #e22828;
---custom-text-header-animation: textflicker;
 --input-font: 'Share Tech Mono', monospace;
 --text-font: 'Share Tech Mono', monospace;
---loginbox-background-color: transparent;
+--div-background-color-15: rgba(0, 255, 111, 0.03);
 --text-shadow: 0 0 8px;
 --text-shadow-color: #e22828;
 --box-shadow: 0 0 15px;
