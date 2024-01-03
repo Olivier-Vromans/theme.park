@@ -1,0 +1,22 @@
+@import url(/theme.park/css/addons/unraid/login-page/anime/anime-base.css);
+
+:root {
+    --main-bg: transparent;
+    --logo: url(/theme.park/css/addons/unraid/login-page/anime/logo/anime.png) center no-repeat;
+    --text-color: #68ffff;
+    --input-color: #68ffff;
+    --link-color: #68ffff;
+    --link-color-hover: #68ffff;
+    --case-color: #68ffff;
+    --button-text-color: #68ffff;
+    --button-text-color-hover: #000;
+    --button-color: #68ffff;
+    --button-color-hover: #68ffff;
+    --button-color2: #991313;
+    --button-color2-hover: #68ffff;
+    --input-font: 'Share Tech Mono', monospace;
+    --text-font: 'Share Tech Mono', monospace;
+    --div-background-color-15: rgba(255, 255, 255, 0.21);
+    --text-shadow: 0 0 8px;
+    --box-shadow: 0 0 15px;
+}
