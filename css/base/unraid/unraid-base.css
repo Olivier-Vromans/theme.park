@@ -102,6 +102,7 @@ pre {
 
 .nav-tile {
     background-color: var(--transparency-dark-50);
+    overflow-x: auto;
 }
 
 div.title {
@@ -674,7 +675,7 @@ div.shade-black {
 /* MODAL */
 
 .sweet-alert, .sweet-alert .sa-icon.sa-success .sa-fix {
-    background-color: var(--modal-bg-color);
+    background: var(--modal-bg-color);
 }
 
 .sweet-alert.nchan h2 {
