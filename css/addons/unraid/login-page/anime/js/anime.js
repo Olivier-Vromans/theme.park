@@ -1,4 +1,11 @@
 (function () {
+    // Fix iOS Safari viewport to cover behind notch/Dynamic Island
+    var viewport = document.querySelector('meta[name="viewport"]');
+    if (viewport) {
+        viewport.setAttribute('content', viewport.getAttribute('content') + ',viewport-fit=cover');
+    }
+
+    // Inject video background (desktop only)
     var VIDEO_URL = 'https://olivier-vromans.github.io/theme.park/css/addons/unraid/login-page/anime/video/login-video.mp4';
 
     var wrap = document.createElement('div');
