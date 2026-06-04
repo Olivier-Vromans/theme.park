@@ -1,0 +1,14 @@
+:root {
+    --main-bg: #282a36;
+    --login-bg: rgba(40, 42, 54, 0.78);
+    --login-border: rgba(189, 147, 249, 0.3);
+    --text-color: #f8f8f2;
+    --placeholder-color: #6272a4;
+    --link-color: #bd93f9;
+    --link-hover: #ff79c6;
+    --error-color: #ff5555;
+    --input-bg: rgba(68, 71, 90, 0.6);
+    --button-bg: #bd93f9;
+    --button-text: #282a36;
+    --mobile-bg: url('https://s3-alpha.figma.com/hub/file/2199333287773486833/8cf9f4e8-1d8d-44ed-9fd6-d0bfefedefd6-cover.png');
+}
