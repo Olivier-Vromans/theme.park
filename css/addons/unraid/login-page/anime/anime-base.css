@@ -83,6 +83,7 @@ body {
         background-image: var(--mobile-bg) !important;
         background-size: cover !important;
         background-position: center !important;
+        background-repeat: no-repeat !important;
     }
     #login {
         position: absolute;
